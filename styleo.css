@@ -1,0 +1,125 @@
+.top{
+    width: 1440px;
+height: 30px;
+flex-shrink: 0;
+background: var(--krot-gradient, linear-gradient(270deg, #2FA365 0%, #15545C 100%));
+
+}
+.top p{
+    padding-top: 8px;
+    color: #FFF;
+/* reg12 */
+font-family: Clear Sans;
+font-size: 12px;
+font-style: normal;
+text-align: center;
+font-weight: 400;
+line-height: 113.705%; /* 13.645px */
+text-transform: uppercase;
+}
+nav{
+    width: 1440px;
+height: 120px;
+background: var(--FFFFFF, #FFF);
+/* blue shadow y2b4 */
+box-shadow: 0px 2px 4px 0px rgba(0, 24, 112, 0.21);
+display: flex;
+}
+nav img{
+    width: 132.8px;
+height: 50px;
+flex-shrink: 0;
+margin-top: 33px;
+margin-left: 70px;
+}
+.nav_elements{
+    margin-left: 73.2px;
+}
+.nav_top{
+    display: inline-flex;
+}
+.call{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px; 
+}
+.call1{
+    margin-left: 147px;
+    margin-top: 20px;
+color: var(--green, #007F00);
+/* reg12 */
+font-family: Clear Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%; /* 13.645px */
+text-transform: uppercase;
+}
+.call2{
+    margin-top: 20px;
+    margin-left: 138px;
+    color: var(--black-almost, #222);
+/* reg12 */
+font-family: Clear Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%; /* 13.645px */
+text-transform: uppercase;
+}
+.nav_menu{
+    display: inline-flex;
+align-items: flex-start;
+gap: 63px;
+}
+.nav_menu h3{
+    color: var(--CTA-orange, #F3761B);
+/* menu14 AA */
+font-family: Clear Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 113.705%; /* 15.919px */
+text-transform: uppercase;
+}
+.nav_menu p{
+    cursor: pointer;
+    color: #000;
+/* menu14 AA */
+font-family: Clear Sans;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: 113.705%; /* 15.919px */
+text-transform: uppercase;
+}
+.raqam{
+    color: var(--green, #007F00);
+/* menu 18 */
+font-family: Clear Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%;
+}
+.zvanok{
+    color: var(--black-almost, #222);
+/* reg12 */
+font-family: Clear Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%; /* 13.645px */
+text-transform: uppercase;
+}
+.san{
+    color: var(--black-almost, #222);
+/* reg12 */
+font-family: Clear Sans;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 113.705%;
+text-transform: uppercase;
+}
