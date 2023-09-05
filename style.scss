@@ -1,5 +1,6 @@
 .previous-footer{
     display: flex;
+    box-sizing: border-box;
     width: 1340px;
     padding: 7px 80px 3px 80px;
     justify-content: space-between;
@@ -26,6 +27,7 @@ footer{
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
         background-image: url(./imgsI/Rectangle\ 12.png);
         h1{
+            box-sizing: border-box;
             width: 455px;
             color: var(--FFFFFF, #FFF);
             font-family: Roboto;
@@ -37,6 +39,7 @@ footer{
             padding-left: 40px;
         }
         p{
+            box-sizing: border-box;
             padding-left: 40px;
             padding-top: 42px;
             width: 455px;
@@ -50,6 +53,7 @@ footer{
     }
     .div2{
         width: 663px;
+        box-sizing: border-box;
         height: 520px;
         border-radius: 3px;
         background: url(<path-to-image>), lightgray 50% / cover no-repeat;
@@ -74,6 +78,7 @@ footer{
             transition-duration: 1s;
         }
         button{
+            box-sizing: border-box;
             margin-top: 31px;
             margin-left: 156px;
             display: inline-flex;
