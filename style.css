@@ -1,0 +1,94 @@
+.previous-footer {
+  display: flex;
+  width: 1340px;
+  padding: 7px 80px 3px 80px;
+  justify-content: space-between;
+  align-items: center;
+  background: #FFF;
+  box-shadow: 0px 2px 4px 0px rgba(0, 24, 112, 0.21);
+  margin: 33px auto;
+}
+.previous-footer img:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+footer .div1 {
+  width: 663px;
+  height: 520px;
+  border-radius: 3px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  background-image: url(./imgsI/Rectangle\ 12.png);
+}
+footer .div1 h1 {
+  width: 455px;
+  color: var(--FFFFFF, #FFF);
+  font-family: Roboto;
+  font-size: 39px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 0%; /* 0px */
+  padding-top: 42px;
+  padding-left: 40px;
+}
+footer .div1 p {
+  padding-left: 40px;
+  padding-top: 42px;
+  width: 455px;
+  color: var(--FFFFFF, #FFF);
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .div2 {
+  width: 663px;
+  height: 520px;
+  border-radius: 3px;
+  background: url(<path-to-image>), lightgray 50%/cover no-repeat;
+  padding-top: 21px;
+  padding-left: 40px;
+  background-color: #fff;
+}
+footer .div2 p {
+  width: 600px;
+  color: var(--green, #007F00);
+  font-family: Roboto;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+footer .div2 img {
+  margin-top: 18px;
+}
+footer .div2 button:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+footer .div2 button {
+  margin-top: 31px;
+  margin-left: 156px;
+  display: inline-flex;
+  padding: 9px 31px 12px 31px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 3px;
+  border: 2px solid var(--CTA-orange, #F3761B);
+  color: var(--CTA-orange, #F3761B);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}/*# sourceMappingURL=style.css.map */
